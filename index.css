@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+body {
+  background-image: url(/images/FGO.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  text-decoration: none;
+  color: #666;
+}
+
+ a:visited {
+  text-decoration: none;
+  color: #666;
+}
+
+ a:active {
+  text-decoration: none;
+  color: #666;
+}
+
+ a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.main {
+  background: rgba( 255, 255, 255, 0.95 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 30%;
+  height: 0;
+  padding-bottom: 35%;
+}
+
+#banner {
+  margin:0 auto;
+  height:auto;
+  width:auto;
+}
+
+#banner img {
+  width:100%; 
+  margin:auto;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title {
+  text-align: center;
+}
+
+#face {
+  display: grid;
+  place-items: center;
+}
+
+#face img {
+  border-radius: 50%;
+  width:20%; 
+  margin: -50px;
+}
+
+#info {
+  margin: 75px;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4533669 */
+  src: url('//at.alicdn.com/t/c/font_4533669_z9dwwa7rvh.woff2?t=1714919710331') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4533669_z9dwwa7rvh.woff?t=1714919710331') format('woff'),
+       url('//at.alicdn.com/t/c/font_4533669_z9dwwa7rvh.ttf?t=1714919710331') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bangumi-icon:before {
+  content: "\e600";
+}
+
+.icon-bilibili-line:before {
+  content: "\e66d";
+}
+
+.icon-github-line:before {
+  content: "\e682";
+}
+
+.icon-mail-open-line:before {
+  content: "\e68a";
+}
+
+.icon-netease-cloud-music-line:before {
+  content: "\e694";
+}
+
+.icon-qq-line:before {
+  content: "\e697";
+}
+
+.icon-twitter-line:before {
+  content: "\e6b0";
+}
+
+.icon-weibo-line:before {
+  content: "\e6bb";
+}
+
+#link {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#link li {
+  float: left;
+  margin: 20px;
+}
